@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder - Survery</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div>
+			<h1>Survery Questions</h1>
+		</div>
+
+		<div>
+			<h2>About You</h2>
+		</div>
+			<form method="POST" action="/api/friends">
+				<!-- name -->
+			  <div class="form-group">
+			    <label for="name">Name</label>
+			    <input type="text" class="form-control" name="name" aria-describedby="name" placeholder="Full Name Here">
+			  </div>
+
+			  <!-- phone number -->
+			  <div class="form-group">
+			    <label for="text">Photo Image</label>
+			    <input type="text" class="form-control" name="imageURL" placeholder="Image URL">
+			  </div>
+
+			  <!-- Question 1 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">Your mind is always buzzing with unexlored ideas and plans</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionOne">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			  <!-- Question 2 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">Generally speaking, you rely more on experience than your imagination</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionTwo">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			  <!-- Question 3 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">You find it easy to stay relaxed and focused even when there is some pressure.</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionThree">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			   <!-- Question 4 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">You rarely do something just out of sheer curiosity.</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionFour">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			  <!-- Question 5 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">People can rarely upset you.</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionFive">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			  <!-- Question 6 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">It is often difficult for you to relate to other people's feelings.</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionSix">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			   <!-- Question 7 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">In a discussion, truth should be more important than people's sensitivities.</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionSeven">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			  <!-- Question 8 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">You rarely get carried away by fantasies and ideas.</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionEight">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			  <!-- Question 9 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">You think that everyone's views should be respected regardless of whether they are supported by facts or not.</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionNine">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			  <!-- Question 10 -->
+			  <div class="form-group">
+			    <label for="exampleAnswer">You feel more enegetic after spending time with a group of people.</label><br>
+			    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" name="questionTen">
+				    <option selected>Choose...</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="3">4</option>
+				    <option value="3">5</option>
+				 </select>
+			  </div>
+
+			  <!-- submit button -->
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		
+		<div>
+			<a href="/api/friends"><p>API Friends List</p></a>
+			<a href="/api/GitHub"><p>GitHub Repo</p></a>
+		</div>
+		
+	</div>
+</body>
+</html>
